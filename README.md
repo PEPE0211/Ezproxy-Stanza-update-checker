@@ -26,7 +26,7 @@ source venv/bin/activate
 # Install dependencies
 pip install requests beautifulsoup4
 ```
-###2. Configuration
+### 2. Configuration
 Edit the StanzaChecker.py file with your credentials:
 
 EMAIL_USER: Your email address.
@@ -35,7 +35,7 @@ EMAIL_PASS: Your 16-character App Password(I used Google).
 
 RECIPIENT_EMAIL: The address where alerts should be sent.
 
-3. Initialization
+### 3. Initialization
 Before the first run, ensure your stanzas.json exists in the same directory. The script uses 2026-02-05 as the baseline date for all your databases to ensure you only get notified about updates moving forward. Make sure all your stanza's are updated or you can setup stanzas.json to have the date you actually updated the stanza.
 
 📅 Automation
